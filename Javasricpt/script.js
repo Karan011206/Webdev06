@@ -136,23 +136,101 @@
 // function abc() {
 // console.log("Hello");
 // }
-let arr = [1, 2, 3, 4, 5, 6, 7, 8]; //creation of Array
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8]; //creation of Array
 
-for (
-  var i = 0;
-  i < 8;
-  i++                              //Reading of array
-) {
-  console.log(arr[i]);
-}
+// for (
+//   var i = 0;
+//   i < 8;
+//   i++                              //Reading of array
+// ) {
+//   console.log(arr[i]);
+// }
 
-console.log(arr);
+// console.log(arr);
 
-arr[2] = arr[2] + 10;              //Updation of array
-console.log(arr); 
+// arr[2] = arr[2] + 10;              //Updation of array
+// console.log(arr); 
 
-arr = [];
-console.log(arr);                   //deletion of array
+// arr = [];
+// console.log(arr);                   //deletion of array
 
 // hence the CRUD operation has been done since we have perfomed each task of Creation and Reading and Updation and Deletion
-arr.pop();
+// arr.pop();
+
+
+
+
+//ARRAY
+// let fd = [
+//   ["karan","19-10-2005,8815811535", "bhopal", "student"],
+//   ["rehani","19-10-2005,8815811535", "rew", "student"],
+//   ["nans","19-10-2005,8815811535", "sehore", "student"],
+//   ["nunau","19-10-2005,8815811535", "america", "student"],
+
+  
+// ];
+
+// fd.forEach(Element => {
+//   console.log(Element)
+// });
+
+// let FData = [
+//   {
+//     "name": "karan",
+//     "dob_phone": "19-10-2005,8815811535",
+//     "city": "bhopal",
+//     "role": "student"
+//   },
+//   {
+//     "name": "rehani",
+//     "dob_phone": "19-10-2005,8815811535",
+//     "city": "rew",
+//     "role": "student"
+//   },
+//   {
+//     "name": "nans",
+//     "dob_phone": "19-10-2005,8815811535",
+//     "city": "sehore",
+//     "role": "student"
+//   },
+//   {
+//     "name": "nunau",
+//     "dob_phone": "19-10-2005,8815811535",
+//     "city": "america",
+//     "role": "student"
+//   }
+// ];
+
+// FData.forEach((item) => {
+//   console.log(item["phone"]);
+// });
+
+
+console.log(FData);
+console.log(FData[0]["name"]); //for the json notation: FData.name
+
+let obj = {
+  name: "Rehaan",
+  dob: "18-11-2006",
+  phone: 8871412826,
+  city: "Bhopal",
+  occupation: "Teacher",
+};
+
+console.log(Object.values(obj));
+console.log(Object.keys(obj));
+
+
+let arr=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89]
+
+arr.sort((a , b) => a - b);
+console.log(arr)
+
+console.log(arr.find((val)=> val>40));
+console.log(arr.findIndex((val)=> val==5));
+console.log(arr.findLastIndex((val)=> val==5));
+
+let ar=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89,23245]
+
+console.log(ar.filter((val) => val>20));
+console.log(ar.find((val) => val>20));
