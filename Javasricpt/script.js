@@ -206,31 +206,31 @@
 // });
 
 
-console.log(FData);
-console.log(FData[0]["name"]); //for the json notation: FData.name
+// console.log(FData);
+// console.log(FData[0]["name"]); //for the json notation: FData.name
 
-let obj = {
-  name: "Rehaan",
-  dob: "18-11-2006",
-  phone: 8871412826,
-  city: "Bhopal",
-  occupation: "Teacher",
-};
+// let obj = {
+//   name: "Rehaan",
+//   dob: "18-11-2006",
+//   phone: 8871412826,
+//   city: "Bhopal",
+//   occupation: "Teacher",
+// };
 
-console.log(Object.values(obj));
-console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.keys(obj));
 
 
-let arr=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89]
+// let arr=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89]
 
-arr.sort((a , b) => a - b);
-console.log(arr)
+// arr.sort((a , b) => a - b);
+// console.log(arr)
 
-console.log(arr.find((val)=> val>40));
-console.log(arr.findIndex((val)=> val==5));
-console.log(arr.findLastIndex((val)=> val==5));
+// console.log(arr.find((val)=> val>40));
+// console.log(arr.findIndex((val)=> val==5));
+// console.log(arr.findLastIndex((val)=> val==5));
 
-let ar=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89,23245]
+// let ar=[1,2,3,34,4,5,6,6,354,7,5,89,45,24,89,23245]
 
-console.log(ar.filter((val) => val>20));
-console.log(ar.find((val) => val>20));
+// console.log(ar.filter((val) => val>20));
+// console.log(ar.find((val) => val>20));
