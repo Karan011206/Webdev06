@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.main-card {
+  width: 400px;
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+#output .card {
+  background-color: #f8f9fa;
+}
