@@ -58,9 +58,9 @@ export const LoginUser = async (req, res) => {
         message: "Email and Password are required",
       });
     }
-
+      
     const user = await User.findOne({ Email: email });
-
+      
     if (!user) {
       return res.status(404).json({
         success: false,
